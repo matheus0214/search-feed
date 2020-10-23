@@ -13,9 +13,9 @@ var wg sync.WaitGroup
 var matchers = make(map[string]Matcher)
 
 /*
-        Create log.txt to set errors
+   Create log.txt to set errors
 
-        Get all feeds and search for this specified to search in file datas
+   Get all feeds and search for this specified to search in file datas
 */
 func Run() {
 	fileerror, errors := os.OpenFile("log.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
