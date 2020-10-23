@@ -1,0 +1,10 @@
+[
+        {
+                "type": "Int",
+                "description": "Integers"
+        },
+        {
+                "type": "Str",
+                "description": "Strings"
+        }
+]
